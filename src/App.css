@@ -1,0 +1,49 @@
+.header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.component {
+  border-radius: 15px;
+  border: 2px solid #2175ad;
+  min-width: 250px;
+  max-width: 400px;
+  margin: 15px;
+  padding: 20px;
+  width: fit-content;
+  overflow-wrap: break-word;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #2175ad;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px;
+}
+
+.button:hover {
+  background-color: #2175ad;
+}
+
+.button:active {
+  background-color: #2175ad;
+  box-shadow: 0 5px;
+  transform: translateY(4px);
+}
